@@ -1,0 +1,36 @@
+.qrWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  padding: 16px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.qr {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  font-size: 0;
+}
+
+.qr img {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 0;
+}
+
+.hint {
+  text-align: center;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
